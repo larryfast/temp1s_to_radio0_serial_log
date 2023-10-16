@@ -1,5 +1,6 @@
 let temperature = 0
 radio.setGroup(0)
+basic.showString(control.deviceName())
 basic.forever(function () {
     basic.showNumber(0)
     basic.pause(1000)
